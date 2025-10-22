@@ -94,7 +94,7 @@ app.use((err, req, res, next) => {
 const startServer = async () => {
   try {
     // Optional ping to test connection before mongoose connect
-    await runMongoPing();
+   // await runMongoPing();
 
     // Connect mongoose
     await mongoose.connect(MONGODB_URI, {
