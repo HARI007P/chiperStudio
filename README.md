@@ -40,7 +40,7 @@ It’s a **React + Node.js + MongoDB** based IDE built for developers, learners,
 
 ## 🧠 Architecture
 
-```mermaid
+
 flowchart TD
 A[React Frontend (Vite)] -->|Axios Requests| B[Express Backend]
 B -->|Mongoose| C[(MongoDB)]
@@ -93,3 +93,4 @@ CipherStudio/
 🧩 Drag & Drop Components
 
 🔍 Code Formatter & Debugger
+
