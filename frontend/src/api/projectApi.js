@@ -1,7 +1,7 @@
 import axios from "axios";
 
 // Use environment variable with fallback
-const API_BASE_URL = process.env.REACT_APP_API_BASE_URL || "http://localhost:5000";
+const API_BASE_URL = process.env.REACT_APP_API_BASE_URL || "https://chiperstudio1.onrender.com";
 
 // Create axios instance
 const apiClient = axios.create({
